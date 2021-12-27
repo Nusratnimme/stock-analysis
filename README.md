@@ -3,7 +3,7 @@
 Steve's parents are passionate about green energy as they think there should be more alternative energy sources than fossil fuel. They would like to invest in a renewable energy company named "DAQO New Energy Corp". Since they don't know much about stocks and their trends, they want their son, who has recently graduated with a Finance degee, to do some stock analyses for them to avoid accidents and errors.
 
 ### Purpose
-The purpose of the analyses is to write a VBA script to find total volumes of 12 different stocks and their annual retuns in two consecutive years, 2017 and 2018.
+The purpose of the analyses is to write a VBA script to find total daily volume traded of 12 different stocks and their annual returns in two consecutive years, 2017 and 2018.
 
 Another purpose is to refactor the code to make it faster and take up less memory so that Steve can expand the dataset to include the entire stock market over the last few years and  help his parents decide better about investing in stocks.
 
@@ -13,7 +13,7 @@ In general, the 12 stocks considered showed stronger performance in 2017 compare
 
 Only two stocks saw positive growth in 2018, RUN and ENPH. The stocks which experienced relatively small decrease at in value less than 10% were VSLR, TERP, AY, SEDG. Total total daily volume traded for ENPH, SPWR and RUN were half a billion or more.
 
-Considering both years, ENPH had kept a steady growth over the period. It should be noted that growth was defined based on value on first and last date and does _NOT_ consider the variability in the intermediate dates.
+Considering both years, ENPH had kept a steady growth over the period. It should be noted that growth was defined based on value on first and last date and does **NOT** consider the variability in the intermediate dates.
 
 ### Performance of original and refactored codes
 **Original code**
@@ -26,7 +26,7 @@ The results and elapsed time for this script for each of the two years are shown
 
 ![Stock_Analysis_2018](https://github.com/Nusratnimme/stock-analysis/blob/main/Stock_Analysis_2018.png)
 
-As can be seen, the script took more or less _1.5 seconds_ to run.
+As can be seen, the script took more or less **1.5 seconds** to run.
 
 **Refactored code**
 
@@ -40,7 +40,7 @@ The refactored script runs much faster than the original script. The results and
 
 ![VBA_Challenge_2018](https://github.com/Nusratnimme/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
-It took _less than 0.2 seconds_ for the script to run.
+It took **less than 0.2 seconds** for the script to run.
 
 ## Summary
 ### Advantages of refactoring
