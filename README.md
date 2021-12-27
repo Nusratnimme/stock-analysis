@@ -57,7 +57,7 @@ The advantages of refactoring are:
 * If assumptions are made about the data in refactoring a code to make it run faster, it may yield error when those assumptions are not held.
 * If refactoring is achieved by employing complex logic, it may be difficult to understand for other users. 
 
-### Pros and cons of refactoring the stock analysis code
+### Pros and cons of refactored stock analysis script
 **Pros**
 * The refactored code was significantly faster.
 * It used less memory.
@@ -67,3 +67,14 @@ The advantages of refactoring are:
 * The refactoring was a time-consuming process.
 * The refactoring assumes the data is ordered by tickers and dates. Even if a signle row is moved from its position, the code will yield inaccurate results.
 * It may be difficult for another user to understand the logic of calculating ticker volumes without looping over all 12 tickers.
+
+### Pros and cons of original stock analysis script
+**Pros**
+* The original script was detailed.
+* It did not assume that the rows were ordered by tickers.
+* The nested loop logic was more intuitive.
+
+**Cons**
+* The original script looked messy.
+* It used more memory.
+* It used nested loops which took longer time to run.
